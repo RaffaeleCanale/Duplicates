@@ -26,7 +26,6 @@ public class Main {
     };
 
     public static void main(String[] args) throws IOException, ParseException {
-
         CommandContext ctx = new CommandContext.Builder(false)
                 .loadDescriptionsFrom("/Commands.sp",
                         formatEnumConstants(IndexImpl.class),
@@ -36,7 +35,15 @@ public class Main {
                 .addHelpCommand()
                 .attachAction("duplicates", new Duplicates())
                 .addDefaultAction("duplicates").build(new UserConsoleInterface(CONSOLE, "", ""));
+
+        if (args == null || args.length == 0 || isHelp(args[0])) {
+            args = new String[] {"help", "duplicates"};
+        }
         ctx.runOrExecute(args);
+    }
+
+    private static boolean isHelp(String arg) {
+        return arg.equals("help") || arg.equals("-h") || arg.equals("--help");
     }
 
     private static String formatEnumConstants(Class<? extends  Enum<?>> cls) {
