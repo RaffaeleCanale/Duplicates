@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="Duplicates:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Duplicates_jar</output-path>
+    <output-path>$PROJECT_DIR$/build</output-path>
     <root id="archive" name="Duplicates.jar">
       <element id="module-output" name="Duplicates" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/WXLibraries/out/artifacts/WXLibraries_jar/WXLibraries.jar" path-in-jar="/" />

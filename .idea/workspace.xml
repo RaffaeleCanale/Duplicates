@@ -61,8 +61,8 @@
       <file leaf-file-name="Duplicates.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/duplicates/Duplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9602649">
-              <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.58278143">
+              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,7 +352,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Libraries/WXLibraries/out/artifacts/WXLibraries_jar/WXLibraries.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -953,7 +953,7 @@
       <workItem from="1456663863363" duration="13952000" />
       <workItem from="1456679051894" duration="8365000" />
       <workItem from="1456733278176" duration="23641000" />
-      <workItem from="1456832228913" duration="5353000" />
+      <workItem from="1456832228913" duration="6501000" />
     </task>
     <servers />
   </component>
@@ -990,7 +990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51311000" />
+    <option name="totallyTimeSpent" value="52459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1498,8 +1498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/duplicates/Duplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9602649">
-          <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.58278143">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
