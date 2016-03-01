@@ -66,8 +66,8 @@ public class Duplicates implements Action {
         List<String> inputPaths = args.supplyStringList();
         List<String> indexNames = args.supplyStringList();
         int minDuplicates = args.supplyInteger();
-        int minSize = args.supplyInteger();
-        int maxSize = args.supplyInteger();
+        int minSize = args.supplyInteger() * 1000; // Size arguments are in KB
+        int maxSize = args.supplyInteger() * 1000;
         int csMaxDepth = args.supplyInteger();
         int csSize = args.supplyInteger();
         int csStep = args.supplyInteger();
